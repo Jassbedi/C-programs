@@ -2,23 +2,21 @@
  
 Basic Programing:
   
-  1. Find ASCII Value of Character
-  2. Using gets() function
-  3. Checking for Vowel
-  4. Reversing Case of Character 
-  
-   1. Program to find Factorial of number 
-  2. Fibonacci Series Program
-  3. Palindrome Program
-  4. Program to find Sum of Digits
-  5. Program to reverse a String
-  
-   1. Armstrong Number
-  2. Checking input number for Odd or Even
-  3. Print Factors of a Number
-  4. Print first n Prime Numbers
-  5. Exponential without pow() function
-  6. Find whether number is int or float
+  - Find ASCII Value of Character
+  - Using gets() function
+  - Checking for Vowel
+  - Reversing Case of Character 
+  - Program to find Factorial of number 
+  - Fibonacci Series Program
+  - Palindrome Program
+  - Program to find Sum of Digits
+  - Program to reverse a String
+  - Armstrong Number
+  - Checking input number for Odd or Even
+  - Print Factors of a Number
+  - Print first n Prime Numbers
+  - Exponential without pow() function
+  - Find whether number is int or float
   
 Arrays:
   - Array operations:
