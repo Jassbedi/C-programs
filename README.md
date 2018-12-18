@@ -34,3 +34,13 @@ Pointers:
   - Reverse a String using Pointer
   - Swapping Two Numbers using Pointer
   - Pointer to a Function [Reference](https://www.studytonight.com/c/programs/pointer/pointer-to-a-function)
+  - Null Pointer [Reference](https://www.studytonight.com/c/programs/pointer/null-pointer-program)
+  
+Using Recursion:
+  - Sum of Digits
+  - Palindrome
+  - Power of N
+  - Prime or Composite
+  - LCM of Two Numbers
+  - GCD of Two Numbers
+  - Reverse a String
