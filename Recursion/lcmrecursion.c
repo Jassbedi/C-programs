@@ -1,29 +1,44 @@
 
 
 #include <stdio.h>
-int lcm(int, int);
+int lcm(int lcm_no[], int count);
 
 int main()
 {
-    int a, b, result;
-    int prime[100];
+  int a, b,i, result;
+  int lcm_no[100];
 
-    printf("Enter two numbers: ");
-    scanf("%d%d", &a, &b);
-    result = lcm(a, b);
-    printf("The LCM of %d and %d is %d\n", a, b, result);
+  printf("Please enter count of numbers: ");
+  scanf("%d",&a);
+
+  for(i=0;i<a;++i)
+  {
+    printf("\nEnter the %d no =",i+1);
+    scanf("%d",&lcm_no[i]);
+  }
+
+    result = lcm(lcm_no, a);
+    printf("]nThe LCM is: %d", result);
     return 0;
-}
+  }
 
-int lcm(int a, int b)
+int lcm(int lcm_no[], int count)
 {
-  static int common = 1;
-
-  if (common % a == 0 && common % b == 0)
+  int checkcount=0;
+  static int c = 1;
+  for(int i=0;i<count;i++)
+  {
+    if(c % lcm_no[i] == 0)
     {
-        return common;
+      checkcount++;
     }
-  common++;
-  lcm(a, b);
-  return common;
+  }
+
+  if ( checkcount == count)
+  {
+      return c;
+  }
+  c++;
+  lcm(lcm_no, count);
+  return c;
 }

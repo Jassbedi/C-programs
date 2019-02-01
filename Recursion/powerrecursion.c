@@ -4,19 +4,28 @@ int power(int, int);
 
 int main()
 {
-    int x, n;
+    int number,pow;
 
     printf("Enter a number and power : ");
-    scanf("%d%d", &x, &n);
+    scanf("%d %d", &number, &pow);
 
-    printf("Result: %d", power(x, n));
+    printf("Result: %d", power(number, pow));
     return 0;
 }
 
 int power(int base, int num)
 {
-    if (num == 0)
-        return 1;
-    else
-        return base * power(base, num - 1);
+   if (num == 0)
+
+
+
+   return 1;
+
+
+  else
+
+      return base * power(base, num - 1);
+
+
+
 }
